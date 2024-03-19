@@ -2,11 +2,13 @@
   "name": "eth-seed-phrase",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Project to generate a random seed phrase, and to show accounts/private keys from a seed phrase",
   "repository": "https://github.com/miquelcabot/eth-seed-phrase",
   "author": "Miquel A. Cabot <miquel.cabot@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "generate-seed-phrase": "node generate-seed-phrase.js"
+    "generate-seed-phrase": "node generate-seed-phrase.js",
+    "read-seed-phrase": "node read-seed-phrase.js"
   },
   "devDependencies": {
     "ethers": "~5.7.2"
