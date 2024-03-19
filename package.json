@@ -1,0 +1,14 @@
+{
+  "name": "eth-seed-phrase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/miquelcabot/eth-seed-phrase",
+  "author": "Miquel A. Cabot <miquel.cabot@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate-seed-phrase": "node generate-seed-phrase.js"
+  },
+  "devDependencies": {
+    "ethers": "~5.7.2"
+  }
+}
